@@ -1,1 +1,55 @@
+/* Estilo geral da página */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: linear-gradient(to right, #f0e68c, #87ceeb); /* mistura de campo e céu urbano */
+  color: #333;
+}
 
+/* Cabeçalho com tema de festa rural e urbana */
+h1 {
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  background-color: #8b4513; /* cor rústica */
+  color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+/* Seção que representa o campo */
+.campo {
+  background-image: url('campo.jpg'); /* uma imagem de campo */
+  background-size: cover;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Seção que representa a cidade */
+.cidade {
+  background-image: url('cidade.jpg'); /* uma imagem urbana */
+  background-size: cover;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Botão de celebração */
+.botao-festa {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff6347; /* cor vibrante */
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.botao-festa:hover {
+  background-color: #ff4500;
+}
